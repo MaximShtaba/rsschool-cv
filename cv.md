@@ -35,10 +35,7 @@ ___
 	max-width: 1180px;
 	margin: 0px auto;
 }
-.hi {
-	padding: 50px 0;
-	background-color: #445162;
-}
+
 ```
 ___
 ####WORK EXPERIENCE:
