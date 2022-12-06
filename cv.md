@@ -31,10 +31,6 @@ ___
 .content {
 	flex: 1 1 auto;
 }
-.container {
-	max-width: 1180px;
-	margin: 0px auto;
-}
 
 ```
 ___
