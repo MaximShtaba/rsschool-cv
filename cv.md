@@ -1,5 +1,5 @@
 # Maksym Shtaba 
-![Avatar](../photo.jpg "My Photo")
+![Avatar](photo.jpg "My Photo")
 ___
 ####CONTACTS:
 Phone: +38(099) 91-36-659
