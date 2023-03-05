@@ -35,6 +35,13 @@ function search(nums, target){
 ```
 ___
 ####WORK EXPERIENCE:
+####RS-School education *(st0)*
+2022-12 - 2023-03
+JS/FE Pre-School 2022Q4 [certificate](https://app.rs.school/certificate/4fko2v4f "Link certificate")
+#####*Examples of my works:*
+- [Plants](https://rolling-scopes-school.github.io/maximshtaba-JSFEPRESCHOOL2022Q4/plants/ "Plants");
+- [Momentum](https://rolling-scopes-school.github.io/maximshtaba-JSFEPRESCHOOL2022Q4/momentum/#en "Momentum").
+
 ####Self employed
 Dec 2016 – Jun 2018 | Part-time | Self employed
 - website development (Wordpress);
