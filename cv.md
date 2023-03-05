@@ -20,18 +20,18 @@ ___
 #####***Other Skills***
 *VSCode, Adobe Photoshop, Revit,  AutoCad, ArchiCAD, SolidWorks, 3dMAX, Spoken English.*
 ___
-####CODE EXAMPLE:
+####CODE EXAMPLE: *(binary search)*
 ```
-.wrapper {
-	min-height: 100%;
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
+function search(nums, target){
+	let left = 0; let right = nums.length-1; let mid;
+	while (left<=right){
+		mid = Math.round((right-left)/2)+left;
+		if (target===nums[mid]) {return mid} else
+		if (target<nums[mid]) {right=mid-1} else
+		if (target>nums[mid]) {left=mid+1}
+	}
+	return -1;
 }
-.content {
-	flex: 1 1 auto;
-}
-
 ```
 ___
 ####WORK EXPERIENCE:
