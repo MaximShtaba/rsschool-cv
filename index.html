@@ -1,26 +1,57 @@
 <!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
 <!DOCTYPE html>
 <!-- Оболочка документа, указываем язык содержимого -->
-<html lang="en">
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
 
 <head>
+
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link href="assets/favicon.ico" rel="shortcut icon" />
-	<link rel="stylesheet" href="style.css" />
-	<title>CV-html</title>
+	<title>cv</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<header>
+	<div class="container">
+		<header>
+			<div class="block__header">
+				<div class="block__logo">
+					<img src="./assets/solidarity-Ukraine.svg" alt="logo solidarity width Ukraine">
+				</div>
+				<nav class="header__nav">
+					<li class="header__menulist"> <a class="nav__link" href="#welcome">CONTACTS</a></li>
+					<li class="header__menulist"> <a class="nav__link" href="#about">SKILLS</a></li>
+					<li class="header__menulist"> <a class="nav__link" href="#service">CODE</a></li>
+					<li class="header__menulist"> <a class="nav__link" href="#price">EXPERIENCE</a></li>
+					<li class="header__menulist"> <a class="nav__link" href="#contacts">EDUCATIONS</a></li>
+					<li class="header__menulist"> <a class="nav__link" href="#contacts">ENGLISH</a></li>
+				</nav>
+			</div>
 
-	</header>
-	<main>
+		</header>
+		<main>
+			<div class="myvisibility">
+				<div class="myphoto">
+					<img src="./assets/photo.jpg" alt="my photo" width="250px">
+				</div>
+				<div class="about">
+					<div class="aboutme">
+						Junior Front End Developer
+					</div>
+					<div class="namecurs">
+						JavaScript/Front-End 2023 Q1
+					</div>
+				</div>
+			</div>
+	</div>
 
 	</main>
 	<footer>
 
 	</footer>
+	</div>
 </body>
 
 </html>
