@@ -16,6 +16,25 @@
 <body>
 	<div class="wrapper">
 		<header>
+			<div class="headermenu">
+				<div class="container">
+					<div class="headermenu__row">
+						<div class="headermenu__logo">
+							<img src="./assets/solidarity-Ukraine.svg" alt="Ukraine">
+						</div>
+						<div class="headermenu__menu">
+							<nav class="header__nav">
+								<li class="header__menulist"> <a class="nav__link" href="#contacts">CONTACTS</a></li>
+								<li class="header__menulist"> <a class="nav__link" href="#skills">SKILLS</a></li>
+								<li class="header__menulist"> <a class="nav__link" href="#experience">EXPERIENCE</a></li>
+								<li class="header__menulist"> <a class="nav__link" href="#code">CODE</a></li>
+								<li class="header__menulist"> <a class="nav__link" href="#educations">EDUCATIONS</a></li>
+								<li class="header__menulist"> <a class="nav__link" href="#language">LANGUAGE</a></li>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="hi">
 				<div class="container">
 					<div class="hi__row">
@@ -27,21 +46,91 @@
 								<div class="hi__titile">Maxim Shtaba</div>
 							</div>
 							<div class="hi__vocation">Junior Frontend developer</div>
-							<div class="hi__about">Responsible and hard-working person, good decision making, administrative, have communicational and interpersonal skills.</div>
+							<div class="hi__about">Responsible and hard-working person, good decision making, administrative,
+								have communicational and interpersonal skills.</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</header>
 		<main>
-			
+			<section class="contact" id="contacts">
+				<div class="container">
+					<h2 class="contact__titlee title">CONTACTS:</h2>
+					<ul class="contact__data">
+						<li class="contact__list"><span>Phone:</span> <a href="tel:+380999136659">+38(099) 91-36-659</a> </li>
+						<li class="contact__list"><span>Email:</span> vokamax159@gmail.com</li>
+						<li class="contact__list"><span>Discord:</span>  Maksym Shtaba (@MaximShtaba)</li>
+						<li class="contact__list"><span>GitHub:</span><a href="https://github.com/MaximShtaba" target="_blank"> MaximShtaba</a> </li>
+					</ul>
+
+				</div>
+			</section>
+
+			<section class="codeexample" id="code">
+				<div class="container">
+					<div class="codeexample__title title">code example: <span>(binary search)</span></div>
+					<p><code>
+						function search(nums, target){<Br>
+							let left = 0; let right = nums.length-1; let mid;<Br>
+								while (left<=right){<Br>
+								mid = Math.round((right-left)/2)+left;<Br>
+								if (target===nums[mid]) {return mid} else<Br>
+								if (target<nums[mid]) {right=mid-1} else<Br>
+								if (target>nums[mid]) {left=mid+1}<Br>
+							}<Br>
+							return -1;<Br>
+						}</code></p>
+				</div>
+			</section>
+
+			<section class="verticallang" id="language">
+				<div class="container">
+					<div class="verticallang__title title">language skills</div>
+					<div class="verticallang__body">
+						<div class="verticallang__row">
+							<div class="verticallang__column">
+								<div class="verticallang__item">
+									<div class="verticallang__subtitle">intermediate</div>
+									<div class="verticallang__lable">English</div>
+									<div class="verticallang__text">
+										<p>I can read technical documentation in English, understand English speech, continue
+											improving my English skills by visiting an English teacher.</p>
+									</div>
+								</div>
+							</div>
+							<div class="verticallang__column">
+								<div class="verticallang__item">
+									<div class="verticallang__subtitle">Proficiency</div>
+									<div class="verticallang__lable">Ukrainian</div>
+									<div class="verticallang__text">
+										<p>I freely communicate on any topic, I understand the subtleties and nuances of the
+											language and structures, I can change the style of communication depending on the
+											situation.</p>
+									</div>
+								</div>
+							</div>
+							<div class="verticallang__column">
+								<div class="verticallang__item">
+									<div class="verticallang__subtitle">Proficiency</div>
+									<div class="verticallang__lable">Russian</div>
+									<div class="verticallang__text">
+										<p>I freely communicate on any topic, I understand the subtleties and nuances of the
+											language and structures, I can change the style of communication depending on the
+											situation.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 		<footer>
 			<div class="container">
 				<div class="footer__row">
 					<div class="footer__githublink">
-						<a href="https://github.com/MaximShtaba"
-							target="_blank">©&emsp;2023&emsp;github
+						<a href="https://github.com/MaximShtaba" target="_blank">©&emsp;2023&emsp;github
 						</a>
 					</div>
 					<div class="footer__text text">

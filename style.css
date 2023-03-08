@@ -31,6 +31,45 @@ body{
 main{
 	flex: 1 1 auto;
 }
+.headermenu{
+	background-color: #435163;
+}
+.headermenu__row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 65px;
+}
+
+.header__nav{
+	display: flex;
+}
+.header__menulist{
+	padding: 5px;
+	border-radius: 5px;
+	width: 130px;
+	text-align: center;
+	
+}
+.header__menulist:hover{
+	background-color: rgba(255, 252, 252, 0.3);
+	transition: 0.7s;
+}
+.header__menulist:active{
+	font-weight: 600;
+}
+.header__nav li{
+	list-style-type: none;
+
+}
+/* .header__nav li:not(:first-child):not(:last-child){
+	margin: 0 10px;
+} */
+.header__nav a {
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px;
+}
 
 /*#435163*/
 .hi__image img{
@@ -71,6 +110,82 @@ main{
 	margin: 20px 0 30px 0;
 	font-size: 30px;	
 }
+.contact__data span{
+font-size: 20px;
+text-transform: capitalize;
+color: #435163;
+}
+.contact__data li{
+	font-size: 20px;
+	line-height:30px;
+}
+.contact__data li::before{
+	content: "";
+	background: url("./assets/") 0 0 no-repeat;
+}
+
+
+.verticallang{
+	padding: 50px 0;
+}
+.verticallang__title{
+	text-align: center;
+	margin: 0 0 30px 0;
+}
+.verticallang__body{
+	max-width: 990px;
+	margin: 0 auto;
+
+}
+.verticallang__row{
+	display: flex;
+	margin: 0 -22.5px;
+}
+.verticallang__column{
+	flex: 0 1 33.333%;
+	padding: 0 22.5px;
+	display: flex;
+}
+.verticallang__subtitle{
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+	padding: 12px 0;
+}
+.codeexample__title{
+	margin: 30px 0 20px 0px;
+}
+.title{
+	 font-size: 24px;
+	 text-transform: uppercase;
+	 color: #435163;
+	 font-weight: 600;
+
+}
+.codeexample__title span{
+	text-transform: lowercase;
+}
+.verticallang__lable{
+	text-align: center;
+	background-color: white;
+	color: #435163;
+	font-size: 24px;
+	padding: 23px 0;
+	text-transform: uppercase;
+}
+.verticallang__text{
+	padding: 20px;
+	font-size: 14px;
+	line-height: 24px;
+}
+.verticallang__item{
+	background-color: #435163;
+	color: white;
+	border-radius: 5px;
+	border: 1px solid #435163;
+
+}
+
 footer{
 	background-color: #f5f5f5;
 }
