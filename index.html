@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>cv</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="headermenu">
+				<div class="container">
+
+					<div class="headermenu__row">
+						<div class="headermenu__logo">
+							<img src="./assets/solidarity-Ukraine.svg" alt="Ukraine solidarity">
+						</div>
+						<div class="headermenu__menu">
+							<nav>
+								<ul class="header__nav">
+									<li class="header__menulist"> <a class="nav__link" href="#contacts">CONTACTS</a></li>
+									<li class="header__menulist"> <a class="nav__link" href="#skills">SKILLS</a></li>
+									<li class="header__menulist"> <a class="nav__link" href="#experience">EXPERIENCE</a></li>
+									<li class="header__menulist"> <a class="nav__link" href="#code">CODE</a></li>
+									<li class="header__menulist"> <a class="nav__link" href="#educations">EDUCATIONS</a></li>
+									<li class="header__menulist"> <a class="nav__link" href="#language">LANGUAGE</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hi">
+				<div class="container">
+					<div class="hi__row">
+						<div class="hi__image">
+							<img src="./assets/photo.jpg" alt="my photo">
+						</div>
+						<div class="hi__body">
+							<div class="hi__familiename">
+								<h1 class="hi__titile">Maxim Shtaba</h1>
+							</div>
+							<div class="hi__vocation">Junior Frontend developer</div>
+							<div class="hi__about">Responsible and hard-working person, good decision making, administrative,
+								have communicational and interpersonal skills.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="firstrow">
+				<div class="container">
+					<div class="firstrown">
+						<section class="contact" id="contacts">
+							<h2 class="contact__titlee title">CONTACTS:</h2>
+							<ul class="contact__data">
+								<li class="contact__list"><span>Phone:</span> <a
+										href="tel:+380999136659">+38(099)&nbsp;91&#8209;36&#8209;659</a>
+								</li>
+								<li class="contact__list"><span>Email:</span> vokamax159@gmail.com</li>
+								<li class="contact__list"><span>Discord:</span> Maksym Shtaba (@MaximShtaba)</li>
+								<li class="contact__list"><span>GitHub:</span><a href="https://github.com/MaximShtaba"
+										target="_blank"> MaximShtaba</a> </li>
+							</ul>
+						</section>
+						<section class="skils" id="skills">
+							<h2 class="skills__titlee title">KEY SKILLS:</h2>
+							<ul class="skills__data">
+								<li class="skills__list"><span>Front End: </span> JavaScript, CSS, HTML, Wordpress, Elementor
+								</li>
+								<li class="skills__list"><span>Web Design: </span> Photoshop, Avocode, Figma</li>
+								<li class="skills__list"><span>Other Skills: </span> VSCode, Adobe Photoshop, Revit, AutoCad,
+									ArchiCAD,
+									SolidWorks, 3dMAX</li>
+							</ul>
+						</section>
+					</div>
+				</div>
+			</div>
+			<div class="secondrow">
+				<div class="container">
+					<div class="secondrown">
+						<section class="codeexample" id="code">
+							<h2 class="codeexample__title title">code example: <span>(binary search)</span></h2>
+							<pre><code>
+function search(nums, target){
+	let left = 0; let right = nums.length-1; let mid;
+	while (left&lt;=right){
+	mid = Math.round((right-left)/2)+left;
+	if (target===nums[mid]) {return mid} else
+	if (target&lt;nums[mid]) {right=mid-1} else
+	if (target&gt;nums[mid]) {left=mid+1}
+	}
+	return -1;
+}
+							</code></pre>
+						</section>
+						<section class="educations" id="educations">
+							<h2 class="education__title title">WORK EXPERIENCE:</h2>
+							<div class="education__name">RS-School education (st0) <a
+									href="https://app.rs.school/certificate/4fko2v4f">certificate</a></div>
+							<div class="education__example">Examole of my works</div>
+							<ul class="education__works">
+								<li class="educations__list"><a
+										href="https://rolling-scopes-school.github.io/maximshtaba-JSFEPRESCHOOL2022Q4/plants/">Plants</a>
+								</li>
+								<li class="educations__list"><a
+										href="https://rolling-scopes-school.github.io/maximshtaba-JSFEPRESCHOOL2022Q4/momentum/#en">Momentum</a>
+								</li>
+							</ul>
+						</section>
+					</div>
+				</div>
+			</div>
+			<section class="verticallang" id="language">
+				<div class="container">
+					<h2 class="verticallang__title title">language skills</h2>
+					<div class="verticallang__body">
+						<div class="verticallang__row">
+							<div class="verticallang__column">
+								<div class="verticallang__item">
+									<div class="verticallang__subtitle">intermediate</div>
+									<div class="verticallang__lable">English</div>
+									<div class="verticallang__text">
+										<p>I can read technical documentation in English, understand English speech, continue
+											improving my English skills by visiting an English teacher.</p>
+									</div>
+								</div>
+							</div>
+							<div class="verticallang__column">
+								<div class="verticallang__item">
+									<div class="verticallang__subtitle">Proficiency</div>
+									<div class="verticallang__lable">Ukrainian</div>
+									<div class="verticallang__text">
+										<p>I freely communicate on any topic, I understand the subtleties and nuances of the
+											language and structures, I can change the style of communication depending on the
+											situation.</p>
+									</div>
+								</div>
+							</div>
+							<div class="verticallang__column">
+								<div class="verticallang__item">
+									<div class="verticallang__subtitle">Proficiency</div>
+									<div class="verticallang__lable">Russian</div>
+									<div class="verticallang__text">
+										<p>I freely communicate on any topic, I understand the subtleties and nuances of the
+											language and structures, I can change the style of communication depending on the
+											situation.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="container">
+				<div class="footer__row">
+					<div class="footer__githublink">
+						<a href="https://github.com/MaximShtaba" target="_blank">©&emsp;2023&emsp;github
+						</a>
+					</div>
+					<div class="footer__text text">
+						<a href="https://rs.school/" target="_blank">&nbsp;&ensp;Rolling&nbsp;Scopes&nbsp;School</a>
+					</div>
+					<div class="footer__logo">
+						<a href="https://rs.school/">
+							<img src="./assets/rs_school.svg" alt="rsschool logo">
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
