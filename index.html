@@ -6,9 +6,8 @@
 
 <head>
 
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link href="assets/favicon.ico" rel="shortcut icon" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>cv</title>
 	<link rel="stylesheet" href="style.css">
 </head>
@@ -88,17 +87,18 @@
 					<div class="secondrown">
 						<section class="codeexample" id="code">
 							<h2 class="codeexample__title title">code example: <span>(binary search)</span></h2>
-							<p><code>
-						function search(nums, target){<Br>
-							let left = 0; let right = nums.length-1; let mid;<Br>
-								while (left<=right){<Br>
-								mid = Math.round((right-left)/2)+left;<Br>
-								if (target===nums[mid]) {return mid} else<Br>
-								if (target<nums[mid]) {right=mid-1} else<Br>
-								if (target>nums[mid]) {left=mid+1}<Br>
-							}<Br>
-							return -1;<Br>
-						}</code></p>
+							<pre><code>
+function search(nums, target){
+	let left = 0; let right = nums.length-1; let mid;
+	while (left&lt;=right){
+	mid = Math.round((right-left)/2)+left;
+	if (target===nums[mid]) {return mid} else
+	if (target&lt;nums[mid]) {right=mid-1} else
+	if (target&gt;nums[mid]) {left=mid+1}
+	}
+	return -1;
+}
+							</code></pre>
 
 						</section>
 						<section class="educations" id="educations">
