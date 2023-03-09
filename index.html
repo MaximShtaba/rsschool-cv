@@ -1,11 +1,7 @@
-<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
 <!DOCTYPE html>
-<!-- Оболочка документа, указываем язык содержимого -->
-<html lang="ru">
-<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+<html lang="en">
 
 <head>
-
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>cv</title>
@@ -23,13 +19,15 @@
 							<img src="./assets/solidarity-Ukraine.svg" alt="Ukraine">
 						</div>
 						<div class="headermenu__menu">
-							<nav class="header__nav">
-								<li class="header__menulist"> <a class="nav__link" href="#contacts">CONTACTS</a></li>
-								<li class="header__menulist"> <a class="nav__link" href="#skills">SKILLS</a></li>
-								<li class="header__menulist"> <a class="nav__link" href="#experience">EXPERIENCE</a></li>
-								<li class="header__menulist"> <a class="nav__link" href="#code">CODE</a></li>
-								<li class="header__menulist"> <a class="nav__link" href="#educations">EDUCATIONS</a></li>
-								<li class="header__menulist"> <a class="nav__link" href="#language">LANGUAGE</a></li>
+							<nav>
+								<ul class="header__nav">
+									<li class="header__menulist"> <a class="nav__link" href="#contacts">CONTACTS</a></li>
+									<li class="header__menulist"> <a class="nav__link" href="#skills">SKILLS</a></li>
+									<li class="header__menulist"> <a class="nav__link" href="#experience">EXPERIENCE</a></li>
+									<li class="header__menulist"> <a class="nav__link" href="#code">CODE</a></li>
+									<li class="header__menulist"> <a class="nav__link" href="#educations">EDUCATIONS</a></li>
+									<li class="header__menulist"> <a class="nav__link" href="#language">LANGUAGE</a></li>
+								</ul>
 							</nav>
 						</div>
 					</div>
@@ -43,7 +41,7 @@
 						</div>
 						<div class="hi__body">
 							<div class="hi__familiename">
-								<div class="hi__titile">Maxim Shtaba</div>
+								<h1 class="hi__titile">Maxim Shtaba</h1>
 							</div>
 							<div class="hi__vocation">Junior Frontend developer</div>
 							<div class="hi__about">Responsible and hard-working person, good decision making, administrative,
@@ -99,10 +97,9 @@ function search(nums, target){
 	return -1;
 }
 							</code></pre>
-
 						</section>
 						<section class="educations" id="educations">
-							<h2 class="education__title title">WORK EXPERIENCE:</span></h2>
+							<h2 class="education__title title">WORK EXPERIENCE:</h2>
 							<div class="education__name">RS-School education (st0) <a
 									href="https://app.rs.school/certificate/4fko2v4f">certificate</a></div>
 							<div class="education__example">Examole of my works</div>
@@ -120,7 +117,7 @@ function search(nums, target){
 			</div>
 			<section class="verticallang" id="language">
 				<div class="container">
-					<div class="verticallang__title title">language skills</div>
+					<h2 class="verticallang__title title">language skills</h2>
 					<div class="verticallang__body">
 						<div class="verticallang__row">
 							<div class="verticallang__column">
@@ -172,7 +169,7 @@ function search(nums, target){
 					</div>
 					<div class="footer__logo">
 						<a href="https://rs.school/">
-							<img src="./assets/rs_school.svg" alt="rsschool logo" height="40px">
+							<img src="./assets/rs_school.svg" alt="rsschool logo" height=40>
 						</a>
 					</div>
 				</div>
