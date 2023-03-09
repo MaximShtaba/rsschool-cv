@@ -110,20 +110,39 @@ main{
 	margin: 20px 0 30px 0;
 	font-size: 30px;	
 }
+.firstrow{
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0 20px 0;
+}
+
+.skills__data span{
+font-size: 20px;
+text-transform: capitalize;
+color: #435163;
+}
 .contact__data span{
 font-size: 20px;
 text-transform: capitalize;
 color: #435163;
 }
+.skills__data li{
+	font-size: 20px;
+	line-height:30px;
+	margin-bottom: 10px;
+}
 .contact__data li{
 	font-size: 20px;
 	line-height:30px;
+	margin-bottom: 10px;
 }
 .contact__data li::before{
 	content: "";
 	background: url("./assets/") 0 0 no-repeat;
 }
-
+.skills__data, .contact__data{
+	margin-top: 20px;
+}
 
 .verticallang{
 	padding: 50px 0;
@@ -152,9 +171,10 @@ color: #435163;
 	text-transform: uppercase;
 	padding: 12px 0;
 }
-.codeexample__title{
+.codeexample__title, .education__title{
 	margin: 30px 0 20px 0px;
 }
+
 .title{
 	 font-size: 24px;
 	 text-transform: uppercase;
@@ -165,7 +185,54 @@ color: #435163;
 .codeexample__title span{
 	text-transform: lowercase;
 }
-.verticallang__lable{
+.codeexample, .educations, .contact, .skills{
+	flex: 1 0 50%;
+}
+.secondrow{
+	background-color: #f5f5f5;
+	padding-bottom: 30px;
+}
+.education__name{
+	font-size: 20px;
+	color: #435163;
+	font-weight: 500;
+}
+.education__name a{
+	text-transform: uppercase;
+	color: #435163;
+	text-decoration: underline;
+}
+.education__example{
+	color: #435163;
+	font-size: 20px;
+}
+.education__works li:not(:last-child){
+	margin-bottom:10px;
+}
+.education__works li{
+font-size: 20px;
+position: relative;
+padding-left: 25px;
+}
+.education__works li:hover{
+	text-decoration: underline;
+}
+.education__works li:before{
+	content: "";
+	background: url("./assets/icons/li.svg") 0 0 no-repeat;
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	top: 0;
+	left: 0;
+}
+.educations__list{
+	margin-top: 10px;
+}
+.educations__list a{
+	color: #435163;
+}
+.verticallang__lable {
 	text-align: center;
 	background-color: white;
 	color: #435163;
@@ -183,9 +250,10 @@ color: #435163;
 	color: white;
 	border-radius: 5px;
 	border: 1px solid #435163;
-
 }
-
+.secondrown, .firstrown{
+display: flex;
+}
 footer{
 	background-color: #f5f5f5;
 }
