@@ -265,6 +265,9 @@ footer{
 	color:dimgray;
 	;
 }
+.footer__logo img{
+	height: 40px;
+}
 .footer__row a{
 	color: black;
 	font-size: 20px;
